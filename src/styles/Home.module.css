@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans:ital,wght@0,400;0,600;1,100&display=swap');
+
+.index {
+  width: 100%;
+  height: 100%;
+}
+
+.body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 1000px;
+  height: 700px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.first {
+  height: 98%;
+  width: 63%;
+  padding-left: 2%;
+}
+
+.second {
+  height: 96.5%;
+  width: 33%;
+  background-color: rgb(244, 207, 174);
+}
+
+.header{
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  background-color: whitesmoke;
+  border-bottom: 1px solid antiquewhite;
+  padding-top: 1%;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
+}
+
+.daylight:hover {
+  color: black;
+}
+
+.subheader {
+  display: inline-flex !important;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  text-align: center;
+  width: 70%;
+  padding-left: 20%;
+}
+
+.headunit {
+  margin-right: 3%;
+}
+
+.headunit:hover {
+  color: burlywood !important;
+  cursor: pointer;
+}
+
+.foot {
+  margin-top: 5%;
+  display: inline-flex;
+  padding-top: 3%;
+  margin-left: 48%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.scale {
+width: 100%;
+height: auto;
+padding-left: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .splash {
+    width: 50%;
+    height: 20%;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 550px;
+    height: 400px;
+    margin-left: 5%;
+  }
+
+  .image {
+    height: 100%;
+    width: 90%;
+    object-fit: fit;
+  }
+
+  .second {
+    height: 97.5%;
+    width: 25%;
+    background-color: rgb(244, 207, 174);
+  }
+
+  .daylight{ 
+    width: 100%;
+    height: auto;
+    font-size: 1.25em;
+  }
+
+  .headunit {
+    font-size: 1.5rem;
+
+  }
+  .subheader {
+    padding-left: 10%;
+  }
+}
