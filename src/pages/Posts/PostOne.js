@@ -17,7 +17,6 @@ export default function PostOne() {
                     </div>
                     <div class={styles.second}>
                         <p class={styles.label}>Lunch Table.</p>
-                        <br />
                         <p class={styles.textbody}>I always found the wildest kids at the lunch table. A true mix of cultural background and 
                             the true sociological enviroment for male development. Lord of the flies meets the free market and I believe
                             that the market will solve everything. If left un tampered and free to develop as naturally as possible, the Derek Huntsman archetype 
