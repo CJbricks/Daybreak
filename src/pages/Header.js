@@ -9,7 +9,7 @@ export default function Header() {
     
 
     return (
-        <>
+        <div className={styles.headbox}>
             <div className={styles.scale}>
                     <Image 
                     src={headerImage}
@@ -27,6 +27,6 @@ export default function Header() {
                     <p className={styles.headunit}>CONTACT</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

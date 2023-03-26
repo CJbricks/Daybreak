@@ -30,22 +30,29 @@
 .second {
   height: 96.5%;
   width: 33%;
-  background-color: rgb(244, 207, 174);
+  background-color: rgb(220, 189, 148);
   text-align: left;
   padding-left: 2%;
+  color: rgb(24, 2, 81);
 }
 
 .header{
   width: 80%;
   margin-left: 10%;
   height: auto;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid antiquewhite;
+ /* border-bottom: 1px solid antiquewhite; */
   padding-top: 1%;
   color: antiquewhite;
   text-align: center;
   font-size: 2.5em;
   font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
+}
+
+.headbox {
+  background: linear-gradient(217deg, rgba(232, 210, 210, 0.8), rgba(135, 98, 98, 0) 70.71%),
+  linear-gradient(127deg, rgba(131, 157, 131, 0.8), rgba(124, 144, 149, 0) 70.71%), 
+  linear-gradient(336deg, rgba(187, 187, 236, 0.8), rgba(165, 165, 245, 0) 70.71%);
+  width: 100%;
 }
 
 .daylight:hover {
