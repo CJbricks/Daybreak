@@ -6,21 +6,21 @@ import Link from 'next/link';
 
 export default function PostTwo() {
     return (
-        <div class={styles.body}>
-                <div class={styles.container}>
-                    <div class={styles.first}>
+        <div className={styles.body}>
+                <div className={styles.container}>
+                    <div className={styles.first}>
                         <Image
                         src={npcPost}
                         alt="featured-drawing"
                         width={600}
                         height={675}
-                        class={styles.image} />
+                        className={styles.image} />
                     </div>
-                    <div class={styles.second}>
-                        <p class={styles.label}>
+                    <div className={styles.second}>
+                        <p className={styles.label}>
                             NPC
                         </p>
-                        <p class={styles.textbody}>
+                        <p className={styles.textbody}>
                             I find it funny that people insult other people with a different mode of thinking by saying
                             "They are an NPC" meaning that they don't have critical thought. The irony
                             is that the odds that you are the rational and conscious entity in a pool of bots is astronomically

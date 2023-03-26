@@ -5,19 +5,19 @@ import burn from '../../../public/nights.jpg';
 
 export default function PostOne() {
     return (
-        <div class={styles.body}>
-                <div class={styles.container}>
-                    <div class={styles.first}>
+        <div className={styles.body}>
+                <div className={styles.container}>
+                    <div className={styles.first}>
                         <Image
                         src={burn}
                         alt="featured-drawing"
                         width={600}
                         height={675}
-                        class={styles.image} />
+                        className={styles.image} />
                     </div>
-                    <div class={styles.second}>
-                        <p class={styles.label}>Lunch Table.</p>
-                        <p class={styles.textbody}>I always found the wildest kids at the lunch table. A true mix of cultural background and 
+                    <div className={styles.second}>
+                        <p className={styles.label}>Lunch Table.</p>
+                        <p className={styles.textbody}>I always found the wildest kids at the lunch table. A true mix of cultural background and 
                             the true sociological enviroment for male development. Lord of the flies meets the free market and I believe
                             that the market will solve everything. If left un tampered and free to develop as naturally as possible, the Derek Huntsman archetype 
                             will reign. I used to believe this idea was a bad idea, but now I have come around to respect the nature in which the world works.

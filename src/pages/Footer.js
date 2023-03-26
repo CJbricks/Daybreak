@@ -9,10 +9,10 @@ import ghLogo from '../../public/gitlogo.png';
 export default function Footer() {
    
     return (
-        <div class={styles.foot}> 
+        <div className={styles.foot}> 
                <a href="https://www.instagram.com/oreo.blizman/" target="_blank" rel="noopener noreferrer">
                     <Image 
-                    class={styles.icon}
+                    className={styles.icon}
                     src={igLogo}
                     alt="icon-ig"
                     height={50}
@@ -21,7 +21,7 @@ export default function Footer() {
                 </a>
                 <a href="https://www.github.com/CJbricks" target="_blank" rel="noopener noreferrer">
                     <Image
-                    class={styles.icon}
+                    className={styles.icon}
                     src={ghLogo}
                     alt="git-icon"
                     height={50}
