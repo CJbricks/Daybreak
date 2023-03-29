@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import headerImage from '../../public/headerbanner.png';
+import Link from 'next/link';
 
 
 
@@ -21,10 +22,18 @@ export default function Header() {
             <div className={styles.header}>
                 <h2 className={styles.daylight}>DAYBREAK.</h2>
                 <div className={styles.subheader}>
-                    <p className={styles.headunit}>WORDS</p>
-                    <p className={styles.headunit}>IMAGES</p>
-                    <p className={styles.headunit}>PRINT</p>
-                    <p className={styles.headunit}>CONTACT</p>
+                    <Link href="/Blog" className={styles.headunit}>
+                        <p>WORDS</p>
+                    </Link>
+                    <Link href="/Images" className={styles.headunit}>
+                        <p>ARCHIVE</p>
+                    </Link>
+                    <Link href="http://bigcartel.com" target="_blank" className={styles.headunit}>
+                        <p>PRINT</p>
+                    </Link>
+                    <Link href="http://leftydesign.vercel.app" target="_blank" className={styles.headunit} >
+                        <p>CONTACT</p>
+                    </Link>
                 </div>
             </div>
         </div>
