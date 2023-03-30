@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import burn from '../../../public/images/nights.jpg';
+import secondAv from '../../../public/images/secondav.png';
+import Border from './Border.js';
 
 
 export default function PostOne() {
@@ -28,8 +30,15 @@ export default function PostOne() {
                         all just be burning ourselves with lighters.    
 
                         </p>
+                        <Image 
+                        src={secondAv}
+                        alt="flower-avatar"
+                        width={300}
+                        height={300}
+                        />
                     </div>
                 </div>
+                <Border />
             </div>
     )
 }

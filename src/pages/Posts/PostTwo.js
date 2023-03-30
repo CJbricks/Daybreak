@@ -2,7 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import npcPost from '../../../public/npc.jpg';
+import smallAv from '../../../public/images/smallav.png';
 import Link from 'next/link';
+import Border from './Border.js';
 
 export default function PostTwo() {
     return (
@@ -30,8 +32,16 @@ export default function PostTwo() {
                             <br />
                             Well, that would probably be you too. 
                         </p>
+                        <Image 
+                        src={smallAv}
+                        alt="mini-avatar"
+                        width={300}
+                        height={300}
+                        class={styles.smallimage}
+                         />
                     </div>
                 </div>
+                <Border />
             </div>
     )
 }

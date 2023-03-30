@@ -8,9 +8,27 @@
     flex-wrap: wrap;
   }
 
+  .border {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
   @media only screen and (max-width: 480px){
     .imagebox {
         margin-left: 2%;
         border-radius: 5px;
+    }
+
+    .border-shrink {
+      width: 500px;
+      height: auto;
+      object-fit: fit;
+    }
+
+    .border {
+      width: 350px;
+      height: auto;
+      margin-left: 2%;
+      object-fit: fit;
     }
   }
