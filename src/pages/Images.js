@@ -6,11 +6,14 @@ import kegImage from '../../public/images/keg.jpg';
 import Header from './Header.js';
 import shedBoy from '../../public/images/shed.jpg';
 import nightsGun from '../../public/images/nights.jpg';
+import Footer from './Footer.js';
 
 export default function Images() {
   return (
+    <>
+    <Header />
     <div>
-        <Header />
+        
         <Image 
             src={kegImage}
             width={380}
@@ -33,5 +36,7 @@ export default function Images() {
             className={styles.imagebox} /> 
 
     </div>
+    <Footer />
+    </>
   )
 }

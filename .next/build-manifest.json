@@ -15,10 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/Body": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Body.js"
     ],
     "/Images": [
       "static/chunks/webpack.js",

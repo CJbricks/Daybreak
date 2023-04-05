@@ -1,0 +1,17 @@
+
+.contacttext{
+    text-align: center;
+    font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.contactbox {
+    text-align: center;
+    margin: 5%;
+}
+
+.contactheader {
+    font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}

@@ -3,6 +3,8 @@ import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import igLogo from '../../public/iglogo.png';
 import ghLogo from '../../public/gitlogo.png';
+import homeIcon from '../../public/home.png';
+import Link from 'next/link';
 
 
 
@@ -10,7 +12,7 @@ export default function Footer() {
    
     return (
         <div className={styles.foot}> 
-               <a href="https://www.instagram.com/oreo.blizman/" target="_blank" rel="noopener noreferrer">
+               <Link href="https://www.instagram.com/oreo.blizman/" target="_blank" rel="noopener noreferrer">
                     <Image 
                     className={styles.icon}
                     src={igLogo}
@@ -18,8 +20,8 @@ export default function Footer() {
                     height={50}
                     width={50}
                     />
-                </a>
-                <a href="https://www.github.com/CJbricks" target="_blank" rel="noopener noreferrer">
+                </Link>
+                <Link href="https://www.github.com/CJbricks" target="_blank" rel="noopener noreferrer">
                     <Image
                     className={styles.icon}
                     src={ghLogo}
@@ -27,7 +29,15 @@ export default function Footer() {
                     height={50}
                     width={50}
                     />
-                </a>
+                </Link>
+                <Link href="/Body">
+                    <Image 
+                        src={homeIcon} 
+                        width={50}
+                        height={50}
+                        className={styles.icon}
+                        />
+                </Link>
         </div>
     )
 }

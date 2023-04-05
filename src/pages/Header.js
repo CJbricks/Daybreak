@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import headerImage from '../../public/headerbanner.png';
 import Link from 'next/link';
+import homeIcon from '../../public/home.png';
 
 
 
@@ -23,7 +24,7 @@ export default function Header() {
                 <h2 className={styles.daylight}>DAYBREAK.</h2>
                 <div className={styles.subheader}>
                     <Link href="/Blog" className={styles.headunit}>
-                        <p>WORDS</p>
+                        <p>WHAT</p>
                     </Link>
                     <Link href="/Images" className={styles.headunit}>
                         <p>ARCHIVE</p>
@@ -31,8 +32,8 @@ export default function Header() {
                     <Link href="http://bigcartel.com" target="_blank" className={styles.headunit}>
                         <p>PRINT</p>
                     </Link>
-                    <Link href="http://leftydesign.vercel.app" target="_blank" className={styles.headunit} >
-                        <p>CONTACT</p>
+                    <Link href="/ContactPage" className={styles.headunit} >
+                        <p>HOW</p>
                     </Link>
                 </div>
             </div>

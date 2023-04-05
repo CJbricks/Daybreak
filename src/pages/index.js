@@ -13,7 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/mnw2dpd.css"></link>
       </Head>
-      <Header />
       <Body />
     </>
   )

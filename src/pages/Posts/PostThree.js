@@ -30,7 +30,7 @@ export default function
                             pinging and relaying everything that happens within it's reach.
                             <br />
                             <br />
-                            The singularity already happened. 
+                            The singularity already happened. TH4 M4TR1X.
                         </p>
                         <Image 
                         src={hunterAvatar}
