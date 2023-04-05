@@ -13,7 +13,6 @@ export default function Images() {
     <>
     <Header />
     <div>
-        
         <Image 
             src={kegImage}
             width={380}

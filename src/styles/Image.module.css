@@ -20,15 +20,16 @@
     }
 
     .border-shrink {
-      width: 500px;
+      width: 480px;
       height: auto;
-      object-fit: fit;
+      object-fit: fill;
     }
 
     .border {
-      width: 350px;
+      width: 100%;
       height: auto;
       margin-left: 2%;
-      object-fit: fit;
+      object-fit: fill;
+      margin-left: 12%;
     }
   }

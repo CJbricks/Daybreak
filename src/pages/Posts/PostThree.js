@@ -25,12 +25,14 @@ export default function
                         </p>
                         <p className={styles.textbody}>
                             I realized recently that there is not one corner of the earth that
-                            the internet will not touch. Starlink will be the end of off the grid style living.
+                            the internet will not touch. 
+                            There can be no such thing again as Walden.
+                            Starlink will be the end of off the grid style living.
                             We are talking bluetooth firewood here connected to your router nested in the base of your smarthome constantly
-                            pinging and relaying everything that happens within it's reach.
+                            pinging and relaying everything that happens within it's reach to the open sourced blockchain.
                             <br />
                             <br />
-                            The singularity already happened. TH4 M4TR1X.
+                            The singularity already happened. TH4 M4TR1X b4bby.
                         </p>
                         <Image 
                         src={hunterAvatar}

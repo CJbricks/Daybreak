@@ -58,6 +58,7 @@
   background-color: #f2f2f2;
   width: 100%;
   
+  
 }
 
 .daylight:hover {
@@ -156,9 +157,10 @@ padding-top: 3%;
     }
 
     .second {
-      height: 97.5%;
+      height: 100%;
       width: 25%;
-      background-color: rgb(244, 207, 174);
+      background-color: #f2f2f2;
+      overflow: scroll;
     }
 
     .daylight{ 
@@ -177,11 +179,13 @@ padding-top: 3%;
 
     .header {
       margin-left: 5%;
-      text-align: center;
+
     }
 
-    .second{
-      display: none;
+    .headbox {
+      margin-left: 22%;
+      align-items: center;
+      justify-content: center;
     }
   }
 }

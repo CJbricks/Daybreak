@@ -20,14 +20,18 @@ export default function PostOne() {
                     </div>
                     <div className={styles.second}>
                         <p className={styles.label}>Lunch Table.</p>
-                        <p className={styles.textbody}>I always found the wildest kids at the lunch table. A true mix of cultural backgrounds and 
-                            the true sociological enviroment for childhood development. Lord of the flies meets the free market and I believe
-                            that the market will solve everything. If left un tampered and free to develop as naturally as possible, the Derek Huntsman archetype 
-                            will reign. I used to believe this idea was a bad idea, but now I have come around to respect the nature in which the world works.
+                        <p className={styles.textbody}>I always found the most relatable life lessons at the lunch table.
+                            Lord of the flies meets the free market and I believe
+                            that the market will solve everything. If left un tampered and free to develop without intervention, the Derek Huntsman archetype 
+                            will reign supreme. I used to believe this idea was a bad idea, but now I have come around to respect the nature in which the world works.
+                            Entropy is the inevitablility, a law, that can not be escaped.
                         <br />
                         <br />
                         Free from outside influence we would probably
-                        all just be burning ourselves with lighters.    
+                        all just be burning ourselves with lighters. 
+                        <br />
+                        <br />
+                        Unbending, moving for the end.   
 
                         </p>
                         <Image 
