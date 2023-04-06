@@ -2,17 +2,27 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import burn from '../../../public/images/nights.jpg';
+import trashCan from '../../../public/crowns.jpg';
 import secondAv from '../../../public/images/secondav.png';
 import Border from './Border.js';
+import { useState } from 'react';
 
 
 export default function PostOne() {
+
+    const imageArr = [burn, trashCan];
+    const [index, setIndex] = useState(0);
+
     return (
         <div className={styles.body}>
                 <div className={styles.container}>
-                    <div className={styles.first}>
+                    <div className={styles.first}
+                        onClick={() => {
+                            index !== 0 ? setIndex(index - 1) : setIndex(index + 1)
+                        }}>
+
                         <Image
-                        src={burn}
+                        src={imageArr[index]}
                         alt="featured-drawing"
                         width={600}
                         height={675}
@@ -31,7 +41,7 @@ export default function PostOne() {
                         all just be burning ourselves with lighters. 
                         <br />
                         <br />
-                        Unbending, moving for the end.   
+                        Unbending.   
 
                         </p>
                         <Image 

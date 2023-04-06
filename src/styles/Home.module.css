@@ -12,6 +12,10 @@
   
 }
 
+.daylight {
+  color: burlywood;
+}
+
 .container{
   width: 1000px;
   height: 700px;
@@ -59,10 +63,6 @@
   width: 100%;
   
   
-}
-
-.daylight:hover {
-  color: burlywood;
 }
 
 .subheader {
