@@ -16,6 +16,33 @@
     font-size: 3em;
 }
 
+.infoheader {
+    text-align: center;
+    font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.subheadtext {
+    text-align: center;
+    font-family: 'Cliate Crisis', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+
+.infobox {
+    width: 100%;
+    height: auto;
+    color: #333;
+    border-bottom:2px solid antiquewhite;
+  }
+
+  .infotext {
+    font-family: 'input-mono-compressed', monospace;
+    padding: 5%;
+    
+  }
+
 @media only screen and (max-width:600px) {
     @media only screen and (max-width: 480px){
         .contactbox {

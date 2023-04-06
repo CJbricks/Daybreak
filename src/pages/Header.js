@@ -23,7 +23,7 @@ export default function Header() {
             <div className={styles.header}>
                 <h2 className={styles.daylight}>DAYBREAK.</h2>
                 <div className={styles.subheader}>
-                    <Link href="/Blog" className={styles.headunit}>
+                    <Link href="/InfoPage" className={styles.headunit}>
                         <p>WHAT</p>
                     </Link>
                     <Link href="/Images" className={styles.headunit}>
