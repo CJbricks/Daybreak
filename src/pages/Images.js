@@ -10,59 +10,30 @@ import Footer from './Footer.js';
 import offlineGuy from '../../public/images/offlineguy.jpg';
 import npc from '../../public/npc.jpg';
 import birdsImage from '../../public/birds.jpg';
+import blackEye from '../../public/images/black-eye.jpg';
 
 export default function Images() {
 
-  const imageDeposit = [kegImage, shedBoy, nightsGun, offlineGuy, npc, birdsImage]
+  const imageDeposit = [kegImage, shedBoy, nightsGun, offlineGuy, npc, birdsImage, blackEye]
 
 
   return (
     <>
     <Header />
-    <div>
-        <Image 
-            src={imageDeposit[0]}
-            width={380}
-            heigth={500}
-            alt="keg-stand-image" 
-            className={styles.imagebox} />
+        <div>
+            { imageDeposit.map((image) => (
+                <Image 
+                  key="image"
+                  src={image}
+                  width={380}
+                  heigth={500}
+                  alt="keg-stand-image" 
+                  className={styles.imagebox} />
+            
+                 ))
+            }
+        </div>
 
-        <Image 
-            src={imageDeposit[1]}
-            width={380}
-            heigth={500}
-            alt="shed-smoking-image" 
-            className={styles.imagebox} />  
-
-        <Image 
-            src={imageDeposit[2]}
-            width={380}
-            heigth={500}
-            alt="blackmetal-trash-image" 
-            className={styles.imagebox} /> 
-
-        <Image 
-            src={imageDeposit[3]}
-            width={380}
-            heigth={500}
-            alt="offline-image" 
-            className={styles.imagebox} />
-
-        <Image 
-            src={imageDeposit[4]}
-            width={380}
-            heigth={500}
-            alt="npc-guy-image" 
-            className={styles.imagebox} />
-
-        <Image 
-            src={imageDeposit[5]}
-            width={380}
-            heigth={500}
-            alt="birds-image" 
-            className={styles.imagebox} />
-
-    </div>
     <Footer />
     </>
   )

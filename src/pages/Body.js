@@ -12,7 +12,7 @@ export default function Test() {
             <PostOne />
             <PostTwo />
             <PostThree />
-                <Footer />
+        <Footer />
         </>
     )
 }
