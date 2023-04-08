@@ -14,7 +14,7 @@ import blackEye from '../../public/images/black-eye.jpg';
 
 export default function Images() {
 
-  const imageDeposit = [kegImage, shedBoy, nightsGun, offlineGuy, npc, birdsImage, blackEye]
+  const imageDeposit = [kegImage, shedBoy, nightsGun, offlineGuy, npc, birdsImage ]
 
 
   return (
@@ -27,7 +27,7 @@ export default function Images() {
                   src={image}
                   width={380}
                   heigth={500}
-                  alt="keg-stand-image" 
+                  alt="archived-image" 
                   className={styles.imagebox} />
             
                  ))

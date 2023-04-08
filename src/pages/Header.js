@@ -4,8 +4,7 @@ import styles from '@/styles/Home.module.css';
 import headerImage from '../../public/headerbanner.png';
 import Link from 'next/link';
 import homeIcon from '../../public/home.png';
-import BrickLogo from './BrickLogo.js';
-import brickLogo from '../../public/clogLogo.png';
+
 
 
 
@@ -14,7 +13,6 @@ export default function Header() {
 
     return (
         <div className={styles.headbox}>
-            <BrickLogo image={brickLogo} />
             <div className={styles.scale}>
                     <Image 
                     src={headerImage}
