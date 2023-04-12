@@ -12,6 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/mnw2dpd.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/eji5tuw.css"></link>
       </Head>
       <Body />
     </>

@@ -14,8 +14,8 @@ import blackEye from '../../public/images/black-eye.jpg';
 
 export default function Images() {
 
-  const imageDeposit = [kegImage, nightsGun, offlineGuy, npc ]
-  const unusedImages = [shedBoy, birdsImage, blackEye]
+  const imageDeposit = [kegImage, nightsGun, offlineGuy, npc, shedBoy ]
+  const unusedImages = [birdsImage, blackEye]
 
   return (
     <>

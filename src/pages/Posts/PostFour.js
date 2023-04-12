@@ -8,7 +8,7 @@ import Border from './Border.js';
 import { useState } from 'react';
 
 
-export default function PostOne() {
+export default function PostFour() {
 
     const imageArr = [kegStand, rtlHorse];
     const [index, setIndex] = useState(0);

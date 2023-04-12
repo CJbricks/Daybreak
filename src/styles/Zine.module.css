@@ -1,0 +1,37 @@
+
+.printbox {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: burlywood;
+    display: inline-flex;
+    color: black;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+  }
+
+  .text {
+    font-family: "octin-college", sans-serif;
+    margin-top: 2%;
+    width: 50%;
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 1%;
+  }
+
+  .titlezine {
+    text-align: left;
+  }
+
+  .issueprint:hover {
+    cursor: pointer;
+  }
+
+  .pagebox {
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+  }
