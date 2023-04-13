@@ -15,10 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/ZinePage": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ZinePage.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/Body": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Body.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

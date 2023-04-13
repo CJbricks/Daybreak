@@ -30,7 +30,7 @@ export default function Header() {
                     <Link href="/Images" className={styles.headunit}>
                         <p>ARCHIVE</p>
                     </Link>
-                    <Link href="http://bigcartel.com" target="_blank" className={styles.headunit}>
+                    <Link href="/ZinePage" className={styles.headunit}>
                         <p>PRINT</p>
                     </Link>
                     <Link href="/ContactPage" className={styles.headunit} >

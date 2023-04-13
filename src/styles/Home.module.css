@@ -103,12 +103,13 @@
 
 .icon {
   margin-right: 10px;
-  border: 1px solid #f2f2f2;
-  border-radius: 5px;
+  
 }
 
 .icon:hover {
   background-color: burlywood;
+  border-radius: 50%;
+  padding: 3%;
 }
 
 .scale {
