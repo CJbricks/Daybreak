@@ -6,7 +6,7 @@ import PostFour from '/src/pages/Posts/PostFour.js';
 import Footer from '/src/pages/Footer.js';
 import Header from './Header.js';
 import BrickLogo from './BrickLogo.js';
-import brickLogo from '../../public/clogLogo.png';
+import brickLogo from '../../public/clogLOGO.png';
 import PostFive from '/src/pages/Posts/PostFive.js';
 
 export default function Test() {
