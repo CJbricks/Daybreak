@@ -29,17 +29,17 @@ export default function PostFive() {
                     </div>
                     <div className={styles.second}>
                         <p className={styles.label}>High Vis</p>
-                        <p className={styles.textbody}>High Res, High Visibility, Turn it up.
+                        <p className={styles.textbody}>
+                        Dumar Brown, artist, &author, &philosopher. & Street philosopher if you will. & I find it strangely inspiring that one of the most influential
+                        thinkers I have read is a street dude from Brooklyn NY. & I never thought deeper than the scratches on a wall. & I never looked deeper than the heavy smell of rustoleum until I read Dumar Brown.
+                        Some of Dumar's work is nearly sociopathic in it's self-centered ideology; However, If you look deeper than the initial shock of someone writing what people 
+                        think and never utter. You may find a clear path to enlightenment. Or at least a path to discovering yourself for what you are & can be.
                         <br />
                         <br />
-                        The end of an era. That's how it feels when you drive down the street and look at an abandoned plot of empty space that used to be 
-                        occupied by something that had value to you. Don't buy into the idea that an experience that you are chasing is all that matters. That experience will soon be sold out and they will move on to another product and another experience that you need to buy. 
+                        Enlightenment from the most valued place, within. & Swing the hammer of inner strength. 
                         <br />
                         <br />
-                        That's all anything is in the modern era. A BUY MORE $HIT sale. 
-                        <br />
-                        <br />
-                        I'm not in it to buy more shit, I am in it for the real thing.
+                        "I like no television. & what I like television won't show."
                         </p>
                         <Image 
                         src={avatar}
