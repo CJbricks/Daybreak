@@ -34,7 +34,7 @@ export default function Header() {
                         <p>PRINT</p>
                     </Link>
                     <Link href="/ContactPage" className={styles.headunit} >
-                        <p>HOW</p>
+                        <p>CONTACT</p>
                     </Link>
                 </div>
             </div>
