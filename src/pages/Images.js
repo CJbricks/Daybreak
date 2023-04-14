@@ -11,10 +11,11 @@ import offlineGuy from '../../public/images/offlineguy.jpg';
 import npc from '../../public/npc.jpg';
 import birdsImage from '../../public/birds.jpg';
 import blackEye from '../../public/images/black-eye.jpg';
+import vrGuy from '../../public/images/vr-guy.jpg'
 
 export default function Images() {
 
-  const imageDeposit = [kegImage, nightsGun, offlineGuy, npc, shedBoy ]
+  const imageDeposit = [kegImage, nightsGun, offlineGuy, npc, shedBoy, vrGuy ]
   const unusedImages = [birdsImage, blackEye]
 
   return (
