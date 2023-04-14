@@ -140,9 +140,10 @@ padding-top: 3%;
   @media only screen and (max-width: 480px){
 
     .splash {
-      width: 75%;
-      height: 35%;
-      object-fit: cover;
+      width: 100%;
+      height: auto;
+      left: 0;
+      
     }
 
     .scale{
@@ -189,7 +190,7 @@ padding-top: 3%;
     }
 
     .headbox {
-      margin-left: 22%;
+      margin-left: 5%;
       align-items: center;
       justify-content: center;
     }

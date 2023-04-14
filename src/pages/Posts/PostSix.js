@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
 import avatar from '../../../public/images/keyring.png';
 import vrGuy from '../../../public/images/vr-guy.jpg';
@@ -30,7 +31,10 @@ export default function PostFive() {
                     <div className={styles.second}>
                         <p className={styles.label}>Wireheading.</p>
                         <p className={styles.textbody}>I can't say it nearly as well or eloquently
-                        as George Hotz.
+                        as George Hotz. 
+                        <br />
+                        <br />
+                        <Link href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Here.</Link>
                         
                         </p>
                         <Image 
