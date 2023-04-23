@@ -20,15 +20,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Body": [
+    "/Images": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Body.js"
-    ],
-    "/InfoPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/InfoPage.js"
+      "static/chunks/pages/Images.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

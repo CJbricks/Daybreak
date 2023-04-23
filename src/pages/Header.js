@@ -13,19 +13,9 @@ export default function Header() {
 
     return (
         <div className={styles.headbox}>
-            <div className={styles.scale}>
-                    <Image 
-                    src={headerImage}
-                    width={700}
-                    height={500}
-                    alt="header-image"
-                    className={styles.splash} />
-            </div>
-            <div className={styles.header}>
-                <h2 className={styles.daylight}>DAYBREAK.</h2>
                 <div className={styles.subheader}>
                     <Link href="/InfoPage" className={styles.headunit}>
-                        <p>WHAT</p>
+                        <p>WHAT?</p>
                     </Link>
                     <Link href="/Images" className={styles.headunit}>
                         <p>ARCHIVE</p>
@@ -37,6 +27,17 @@ export default function Header() {
                         <p>CONTACT</p>
                     </Link>
                 </div>
+            <div className={styles.scale}>
+                    <Image 
+                    src={headerImage}
+                    width={700}
+                    height={500}
+                    alt="header-image"
+                    className={styles.splash} />
+            </div>
+            <div className={styles.header}>
+                <h2 className={styles.daylight}>DAYBREAK.</h2>
+               
             </div>
         </div>
     )
