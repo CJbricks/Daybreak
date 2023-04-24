@@ -6,6 +6,7 @@ import avatar from '../../../public/images/keyring.png';
 import vrGuy from '../../../public/images/vr-guy.jpg';
 import Border from './Border.js';
 import { useState } from 'react';
+import { Box, Text, Center, Flex } from '@chakra-ui/react';
 
 
 export default function PostFive() {
@@ -14,6 +15,24 @@ export default function PostFive() {
     const [index, setIndex] = useState(0);
 
     return (
+        <>
+
+        <Center bg="#F2F2F2">
+            <Box 
+            textAlign="center" 
+            alignItems="center" 
+            justifyContent="center"
+            fontFamily="'Climate Crisis', Arial, Helvetica, sans-serif;"
+           // border="1px solid red"
+            fontSize={['1em', '1.2em', '2.25em']}
+            fontWeight={600}
+            p={3}
+            >
+                <Text color="orange.600">" Wireheading "</Text>
+            </Box>
+        </Center>
+
+
         <div className={styles.body}>
                 <div className={styles.container}>
                     <div className={styles.first}
@@ -29,7 +48,7 @@ export default function PostFive() {
                         className={styles.image} />
                     </div>
                     <div className={styles.second}>
-                        <p className={styles.label}>Wireheading.</p>
+                        
                         <p className={styles.textbody}>I can't say it nearly as well or eloquently
                         as George Hotz. 
                         <br />
@@ -47,5 +66,7 @@ export default function PostFive() {
                 </div>
                 <Border />
             </div>
+
+            </>
     )
 }
