@@ -11,7 +11,6 @@ export default function () {
   return (
     <>
     <Header />
-        <Border />
             <div className={styles.contactbox}>
                 
                     <p className={styles.contactheader}> Contact me, if you must.</p>
@@ -32,9 +31,8 @@ export default function () {
                         please send Email
                         or notification to IG through direct message. 
                     </p>
-                
             </div>
-        <Border />
+        
     <Footer />
     
     </>

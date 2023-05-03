@@ -8,12 +8,13 @@
 
 .contactbox {
     text-align: center;
-    margin: 5%;
+    background-color: #F2F2F2;
+    width: 100%;
 }
 
 .contactheader {
     font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .infoheader {
@@ -27,7 +28,6 @@
     font-family: 'Cliate Crisis', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-style: italic;
-
 }
 
 .infobox {

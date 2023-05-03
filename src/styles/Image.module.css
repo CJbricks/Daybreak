@@ -26,8 +26,13 @@
   }
 
   .logo:hover {
-    background-color: burlywood;
-    border: 1px solid burlywood;
+    background-color: #FED7E2;
+    border: 1px solid #FED7E2;
+  }
+
+  .zinebg {
+    width: 100%;
+    background-color: #f2f2f2;
   }
 
   
@@ -42,14 +47,14 @@
       width: 480px;
       height: auto;
       object-fit: fill;
+      background-color: #F2F2F2;
     }
 
     .border {
       width: 100%;
       height: auto;
-      margin-left: 2%;
       object-fit: fill;
-      margin-left: 12%;
+      background-color: #F2F2F2;
     }
 
     .logobox {

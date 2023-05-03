@@ -30,18 +30,10 @@ export default function PostFour() {
                     </div>
                     <div className={styles.second}>
                         <p className={styles.label}>Life Is Pain</p>
-                        <p className={styles.textbody}>Of all the Hardcore lyrics that I have written over throws I think Life Is Pain is the most accurate to the 
-                        experience. 
+                        <p className={styles.textbody}>
                         <br />
+                        Birkenstock X Core
                         <br />
-                        This is an ode to Jock X Violence and all the bro's taking keg stands between sets. 
-                        I used to know these crusty kids who hated any mainstream... well... anything they hated Nike, Baseball, Hats, Pullover Hoodies, Cars,
-                        Peyton Manning, Me, Coors Light, Family, God, Hardcore Music that had breakdowns in it, Hardcore music, Folk Music, Music and everything else they could get their grubby little jeans on. 
-                        <br />
-                        But they loved taking beer bongs and smoking vapes and cigs. 
-                        <br />
-                        <br />
-                        Maybe I am the asshole and I just don't understand. IDK not showering sucks.
 
                         </p>
                         <Image 

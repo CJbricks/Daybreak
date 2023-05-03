@@ -18,9 +18,7 @@
   background-color: #f2f2f2;
 }
 
-.daylight {
-  color: burlywood;
-}
+
 
 .container{
   width: 1000px;
@@ -51,16 +49,18 @@
 }
 
 .header{
+  margin-left: 11%;
+  border-bottom: 1px solid #FED7E2;
+  font-size: 72px;
+  font-weight: 600;
   width: 80%;
-  margin-left: 10%;
-  height: auto;
- /* border-bottom: 1px solid antiquewhite; */
-  padding: 3%;
-  color: antiquewhite;
+  align-items: center;
   text-align: center;
-  font-size: 2.5em;
+  justify-content: center;
+  height: auto;
+  padding: 2%;
+  text-align: center;
   font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
-  
 }
 
 .headbox {
@@ -74,8 +74,8 @@
 }
 
 .subheader {
-  display: inline-flex !important;
-  flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: nowrap;
   text-align: center;
   width: 70%;
   padding-left: 35%;
@@ -92,7 +92,7 @@
 
 
 .headunit:hover {
-  color: burlywood;
+  color: #FED7E2;
   cursor: pointer;
 }
 
@@ -104,7 +104,8 @@
 }
 
 .foot {
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   display: inline-flex;
   padding-top: 3%;
   margin-left: 44%;
@@ -189,20 +190,24 @@ padding-top: 3%;
     }
 
     .headunit {
-      font-size: 1.5rem;
+      font-size: 12px;
 
     }
     .subheader {
-      margin-left: 15%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
     }
 
     .header {
-      margin-left: 5%;
-
+      font-size: 24px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
     }
 
     .headbox {
-      margin-left: 5%;
+      width: 100%;
       align-items: center;
       justify-content: center;
     }

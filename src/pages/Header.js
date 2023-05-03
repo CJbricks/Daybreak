@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css';
 import headerImage from '../../public/headerbanner.png';
 import Link from 'next/link';
 import homeIcon from '../../public/home.png';
+import { Text } from '@chakra-ui/react'
 
 
 
@@ -36,8 +37,7 @@ export default function Header() {
                     className={styles.splash} />
             </div>
             <div className={styles.header}>
-                <h2 className={styles.daylight}>DAYBREAK.</h2>
-               
+                <Text color="pink.100">DAYBREAK.</Text>
             </div>
         </div>
     )
