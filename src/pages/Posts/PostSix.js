@@ -28,7 +28,7 @@ export default function PostFive() {
             fontWeight={600}
             p={3}
             >
-                <Text color="orange.600">" Wireheading "</Text>
+                <Text color="orange.500">" Wireheading "</Text>
             </Box>
         </Center>
 
@@ -47,6 +47,7 @@ export default function PostFive() {
                         height={675}
                         className={styles.image} />
                     </div>
+                    <br />
                     <div className={styles.second}>
                         
                         <p className={styles.textbody}>I can't say it nearly as well or eloquently
@@ -54,14 +55,7 @@ export default function PostFive() {
                         <br />
                         <br />
                         <Link href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Here.</Link>
-                        
                         </p>
-                        <Image 
-                        src={avatar}
-                        alt="key-ring-avatar"
-                        width={300}
-                        height={300}
-                        />
                     </div>
                 </div>
                 <Border />

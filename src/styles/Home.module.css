@@ -9,7 +9,7 @@
 .body{
   width: 100%;
   height: 100%;
-  background-color: #E6FFFA;
+  background-color: #FED7E2;
 }
 
 .body:nth-child(even) {
@@ -22,30 +22,34 @@
 
 .container{
   width: 1000px;
-  height: 700px;
+  height: 1000px;
   display: inline-flex;
   flex-wrap: wrap;
-  margin-left: 15%;
-  margin-top: 5%;
-  margin-bottom: 8%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 50px;
+  /*border: 1px solid red;*/
   
 }
 
 .first {
-  height: 98%;
-  width: 63%;
-  padding-left: 2%;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 800px;
+  /*border: 1px solid green;*/
 }
 
 
 
 .second {
-  height: 96.5%;
-  width: 33%;
+  height: 10px;
+  width: 100%;
   text-align: left;
   padding-left: 2%;
   color: rgb(24, 2, 81);
-  
+ /* border: 1px solid pink;*/
 }
 
 .header{
@@ -141,8 +145,9 @@ padding-top: 3%;
   font-family: 'input-mono-compressed', monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: .9em;
-  margin-bottom: 100px;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .image:hover {

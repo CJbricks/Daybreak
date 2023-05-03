@@ -6,6 +6,7 @@ import trashCan from '../../../public/crowns.jpg';
 import secondAv from '../../../public/images/secondav.png';
 import Border from './Border.js';
 import { useState } from 'react';
+import { Center, Box, Text } from '@chakra-ui/react'
 
 
 export default function PostOne() {
@@ -14,6 +15,21 @@ export default function PostOne() {
     const [index, setIndex] = useState(0);
 
     return (
+        <>
+        <Center bg="#F2F2F2">
+            <Box 
+            textAlign="center" 
+            alignItems="center" 
+            justifyContent="center"
+            fontFamily="'Climate Crisis', Arial, Helvetica, sans-serif;"
+           // border="1px solid red"
+            fontSize={['1em', '1.2em', '2.25em']}
+            fontWeight={600}
+            p={3}
+            >
+                <Text color="teal.50">" Darkness Is The Name "</Text>
+            </Box>
+        </Center>
         <div className={styles.body}>
                 <div className={styles.container}>
                     <div className={styles.first}
@@ -29,30 +45,16 @@ export default function PostOne() {
                         className={styles.image} />
                     </div>
                     <div className={styles.second}>
-                        <p className={styles.label}>Lunch Table.</p>
-                        <p className={styles.textbody}>I always found the most relatable life lessons at the lunch table.
-                            Lord of the flies meets the free market and I believe
-                            that the market will solve everything. If left un tampered and free to develop without intervention, the Derek Huntsman archetype 
-                            will reign supreme. I used to believe this idea was a bad idea, but now I have come around to respect the nature in which the world works.
-                            Entropy is the inevitablility, a law, that can not be escaped.
-                        <br />
+                        <p className={styles.textbody}>
                         <br />
                         Free from outside influence we would probably
-                        all just be burning ourselves with lighters. 
                         <br />
-                        <br />
-                        Unbending.   
-
+                        all just be burning ourselves with lighters.   
                         </p>
-                        <Image 
-                        src={secondAv}
-                        alt="flower-avatar"
-                        width={300}
-                        height={300}
-                        />
                     </div>
                 </div>
                 <Border />
             </div>
+        </>
     )
 }

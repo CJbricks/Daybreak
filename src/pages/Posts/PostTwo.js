@@ -5,9 +5,25 @@ import npcPost from '../../../public/npc.jpg';
 import smallAv from '../../../public/images/smallav.png';
 import Link from 'next/link';
 import Border from './Border.js';
+import { Center, Box, Text } from '@chakra-ui/react'
 
 export default function PostTwo() {
     return (
+        <>
+        <Center bg="#F2F2F2">
+            <Box 
+            textAlign="center" 
+            alignItems="center" 
+            justifyContent="center"
+            fontFamily="'Climate Crisis', Arial, Helvetica, sans-serif;"
+           // border="1px solid red"
+            fontSize={['1em', '1.2em', '2.25em']}
+            fontWeight={600}
+            p={3}
+            >
+                <Text color="blue.200">" NPC "</Text>
+            </Box>
+        </Center>
         <div className={styles.body}>
                 <div className={styles.container}>
                     <div className={styles.first}>
@@ -19,29 +35,16 @@ export default function PostTwo() {
                         className={styles.image} />
                     </div>
                     <div className={styles.second}>
-                        <p className={styles.label}>
-                            NPC
-                        </p>
                         <p className={styles.textbody}>
-                            I find it funny that people insult other people with a different mode of thinking by saying
-                            "They are an NPC" meaning that they don't have critical thought. The irony
-                            is that the odds that you are the rational and conscious entity in a pool of bots is astronomically
-                            against you. As a matter of fact, think about it, if some sort of <Link href="">solipsistic</Link> 
-                            situation was true and we were ina world of mostly bots and NPC's.
                             <br />
+                            Well, that would probably be you too.
                             <br />
-                            Well, that would probably be you too. 
+                            <Link href="https://en.wikipedia.org/wiki/Solipsism">Solipsisism</Link> 
                         </p>
-                        <Image 
-                        src={smallAv}
-                        alt="mini-avatar"
-                        width={300}
-                        height={300}
-                        class={styles.smallimage}
-                         />
                     </div>
                 </div>
                 <Border />
             </div>
+        </>
     )
 }

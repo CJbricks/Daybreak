@@ -48,12 +48,6 @@ export default function PostFive() {
                             <p className={styles.textbody}>
                             "I like no television. & what I like television won't show."
                             </p>
-                            <Image 
-                            src={avatar}
-                            alt="clogs-avatar"
-                            width={300}
-                            height={300}
-                            />
                         </div>
                         
                     </div>

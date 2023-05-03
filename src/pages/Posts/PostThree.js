@@ -4,11 +4,27 @@ import styles from '@/styles/Home.module.css';
 import offlineGuy from '../../../public/images/offlineguy.jpg';
 import hunterAvatar from '../../../public/images/hunterav.png';
 import Border from './Border.js';
+import { Center, Text, Box } from '@chakra-ui/react'
 
 export default function 
 
 () {
   return (
+    <>
+    <Center bg="#F2F2F2">
+            <Box 
+            textAlign="center" 
+            alignItems="center" 
+            justifyContent="center"
+            fontFamily="'Climate Crisis', Arial, Helvetica, sans-serif;"
+           // border="1px solid red"
+            fontSize={['1em', '1.2em', '2.25em']}
+            fontWeight={600}
+            p={3}
+            >
+                <Text color="orange.700">" Offline Guy "</Text>
+            </Box>
+        </Center>
     <div className={styles.body}>
                 <div className={styles.container}>
                     <div className={styles.first}>
@@ -20,30 +36,14 @@ export default function
                         className={styles.image} />
                     </div>
                     <div className={styles.second}>
-                        <p className={styles.label}>
-                            Offline Guy, Staying Offline.
-                        </p>
                         <p className={styles.textbody}>
-                            I realized recently that there is not one corner of the earth that
-                            the internet will not touch. 
-                            There can be no such thing again as Walden.
-                            Starlink will be the end of off the grid style living.
-                            We are talking bluetooth firewood here connected to your router nested in the base of your smarthome constantly
-                            pinging and relaying everything that happens within it's reach to the open sourced blockchain.
-                            <br />
                             <br />
                             The singularity already happened. TH4 M4TR1X b4bby.
                         </p>
-                        <Image 
-                        src={hunterAvatar}
-                        alt="mini-avatar"
-                        width={350}
-                        height={375}
-                        class={styles.smallimage}
-                         />
                     </div>
                 </div>
                 <Border />
             </div>
+            </>
   )
 }
