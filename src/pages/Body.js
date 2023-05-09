@@ -16,10 +16,11 @@ export default function Test() {
             <Images />
             <Text
             p={2}
+            fontFamily={["input-mono-compressed", "monospace"]}
             textAlign="center"
             color="teal.400"
             fontWeight={600} 
-            fontSize={["14px", "24px", "72px"]} > " LEFTY "</Text>
+            fontSize={["18px", "36px", "72px"]} > " LEFTY "</Text>
             <Issue01 />
             <Border />
         <Footer />
