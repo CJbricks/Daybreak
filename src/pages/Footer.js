@@ -30,7 +30,7 @@ export default function Footer() {
                     width={50}
                     />
                 </Link>
-                <Link href="/Body">
+                <Link href="/">
                     <Image 
                         src={homeIcon} 
                         width={50}

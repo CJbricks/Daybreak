@@ -18,9 +18,6 @@ export default function Header() {
                     <Link href="/InfoPage" className={styles.headunit}>
                         <p>WHAT?</p>
                     </Link>
-                    <Link href="/Images" className={styles.headunit}>
-                        <p>ARCHIVE</p>
-                    </Link>
                     <Link href="/ZinePage" className={styles.headunit}>
                         <p>PRINT</p>
                     </Link>
@@ -37,7 +34,7 @@ export default function Header() {
                     className={styles.splash} />
             </div>
             <div className={styles.header}>
-                <Text color="pink.100">DAYBREAK.</Text>
+                <Text color="teal.400">DAYBREAK.</Text>
             </div>
         </div>
     )

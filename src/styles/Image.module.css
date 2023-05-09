@@ -26,12 +26,21 @@
   }
 
   .logo:hover {
-    background-color: #FED7E2;
-    border: 1px solid #FED7E2;
+    background-color: #f3a5a5;
+    border: 1px solid #f3a5a5;
   }
 
   .zinebg {
     width: 100%;
+    background-color: #f2f2f2;
+  }
+
+  .imagecenter {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 6%;
     background-color: #f2f2f2;
   }
 

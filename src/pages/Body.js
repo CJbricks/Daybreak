@@ -1,26 +1,27 @@
 import React from 'react';
-import PostOne from '/src/pages/Posts/PostOne.js';
-import PostTwo from '/src/pages/Posts/PostTwo.js';
-import PostThree from '/src/pages/Posts/PostThree.js';
-import PostFour from '/src/pages/Posts/PostFour.js';
-import PostSix from '/src/pages/Posts/PostSix.js';
+import Images from './Images.js';
 import Footer from '/src/pages/Footer.js';
 import Header from './Header.js';
 import BrickLogo from './BrickLogo.js';
 import brickLogo from '../../public/clogLOGO.png';
-import PostFive from '/src/pages/Posts/PostFive.js';
+import Border from './Posts/Border.js';
+import Issue01 from './Issue01.js';
+import { Text } from '@chakra-ui/react';
 
 export default function Test() {
     return (
         <>
         <BrickLogo image={brickLogo} />
         <Header />
-            <PostSix />
-            <PostFive />
-            <PostFour />
-            <PostOne />
-            <PostTwo />
-            <PostThree />
+            <Images />
+            <Text
+            p={2}
+            textAlign="center"
+            color="teal.400"
+            fontWeight={600} 
+            fontSize={["14px", "24px", "72px"]} > " LEFTY "</Text>
+            <Issue01 />
+            <Border />
         <Footer />
         </>
     )

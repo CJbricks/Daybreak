@@ -6,8 +6,7 @@ import { useState } from 'react';
 import nextPage from '../../public/zine/nextpage.jpg';
 import leftyPage from '../../public/zine/lefty.jpg';
 import thirdPage from '../../public/zine/bluepagetwo.jpg';
-import Header from './Header.js';
-import Footer from './Footer.js';
+
 
 export default function Issue01() {
 
@@ -18,7 +17,7 @@ export default function Issue01() {
 
     return (
         <>
-            <Header />
+            
                 <div className={styles.printbox}>
                         <p className={styles.text}>
                             Issue No. 01: "Lefty"
@@ -62,7 +61,7 @@ export default function Issue01() {
                         </div>
                         
                     </div>
-                <Footer />
+                
             </>
     )
 }
