@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import burn from '../../../public/images/nights.jpg';
-import trashCan from '../../../public/crowns.jpg';
+import trashCan from '../../../public/images/crowns.jpg';
 import secondAv from '../../../public/images/secondav.png';
 import Border from './Border.js';
 import { useState } from 'react';
