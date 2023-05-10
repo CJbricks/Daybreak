@@ -6,7 +6,7 @@ import styles from '@/styles/Image.module.css';
 export default function BrickLogo(props) {
   return (
     <div className={styles.logobox}>
-        <Link href="http://leftydesign.vercel.app" target="_blank">
+        <Link href="http://bricks-ten.vercel.app" target="_blank">
             <Image 
             src={props.image}
             alt="logo-link"

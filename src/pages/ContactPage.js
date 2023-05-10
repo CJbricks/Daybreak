@@ -5,12 +5,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Border from '../../src/pages/Posts/Border.js';
 import Footer from './Footer.js';
+import { Text, Box, Center, Vstack, Container } from '@chakra-ui/react';
 
 
 export default function () {
   return (
     <>
     <Header />
+      <Container mt={6} mb={6} centerContent >
             <div className={styles.contactbox}>
                 
                     <p className={styles.contactheader}> Contact me, if you must.</p>
@@ -32,6 +34,7 @@ export default function () {
                         or notification to IG through direct message. 
                     </p>
             </div>
+        </Container>
         
     <Footer />
     
