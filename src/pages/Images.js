@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from '@/styles/Image.module.css';
 import kegImage from '../../public/images/keg.jpg';
 import shedBoy from '../../public/images/shed.jpg';
@@ -20,7 +19,7 @@ export default function Images() {
 
   return (
     <>
-        <div className={styles.imagecenter}>
+          <div className={styles.imagecenter}>
             { imageDeposit.map((image) => (
                 <Image 
                   key="image"

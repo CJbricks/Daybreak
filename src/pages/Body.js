@@ -4,7 +4,6 @@ import Footer from '/src/pages/Footer.js';
 import Header from './Header.js';
 import BrickLogo from './BrickLogo.js';
 import brickLogo from '../../public/clogLOGO.png';
-import Border from './Posts/Border.js';
 import Issue01 from './Issue01.js';
 import { Text } from '@chakra-ui/react';
 
@@ -24,7 +23,6 @@ export default function Test() {
             bg="teal.50"
             m={4} > " LEFTY "</Text>
             <Issue01 />
-            <Border />
         <Footer />
         </>
     )
