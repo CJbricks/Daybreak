@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
-import headerImage from '../../public/headerbanner.png';
+import headerImage from '../../public/images/headerbanner2.png';
 import Link from 'next/link';
 import homeIcon from '../../public/home.png';
 import { Text } from '@chakra-ui/react'
@@ -34,7 +34,7 @@ export default function Header() {
                     className={styles.splash} />
             </div>
             <div className={styles.header}>
-                <Text color="teal.400">DAYBREAK.</Text>
+                <Text color="red.500">COSMIC JAIL</Text>
             </div>
         </div>
     )
