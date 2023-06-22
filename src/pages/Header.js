@@ -34,7 +34,7 @@ export default function Header() {
                     className={styles.splash} />
             </div>
             <div className={styles.header}>
-                <Text color="red.500">COSMIC JAIL</Text>
+                <Text color="red.600">DEAL BREAKr</Text>
             </div>
         </div>
     )

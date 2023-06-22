@@ -1,43 +1,83 @@
 import React from 'react'
-import styles from '@/styles/Home.module.css';
-import Image from 'next/image';
-import igLogo from '../../public/iglogo.png';
-import ghLogo from '../../public/gitlogo.png';
-import homeIcon from '../../public/home.png';
-import Link from 'next/link';
+import { ReactNode } from 'react';
 
+import {
+  Box,
+  Container,
+  Link,
+  SimpleGrid,
+  Stack,
+  Text,
+  useColorModeValue,
+  Image
+} from '@chakra-ui/react';
 
+const Logo = (props, any) => {
+  return (
+    <Image src="/Images/birk-chain.png" alt="brick-by-brick-birkenstock-logo" width={50} height={50} viewBox="0 0 120 28" />
+  );
+};
+
+const ListHeader = ({ children }, { children: ReactNode }) => {
+  return (
+    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+      {children}
+    </Text>
+  );
+};
 
 export default function Footer() {
-   
-    return (
-        <div className={styles.foot}> 
-               <Link href="https://www.instagram.com/oreo.blizman/" target="_blank" rel="noopener noreferrer">
-                    <Image 
-                    className={styles.icon}
-                    src={igLogo}
-                    alt="icon-ig"
-                    height={50}
-                    width={50}
-                    />
-                </Link>
-                <Link href="https://www.github.com/CJbricks" target="_blank" rel="noopener noreferrer">
-                    <Image
-                    className={styles.icon}
-                    src={ghLogo}
-                    alt="git-icon"
-                    height={50}
-                    width={50}
-                    />
-                </Link>
-                <Link href="/">
-                    <Image 
-                        src={homeIcon} 
-                        width={50}
-                        height={50}
-                        className={styles.icon}
-                        />
-                </Link>
-        </div>
-    )
+  return (
+    <Box
+      bg={useColorModeValue('gray.50', 'gray.900')}
+      color={useColorModeValue('gray.700', 'gray.200')}
+      mt={5} >
+      <Container as={Stack} maxW={'6xl'} py={10}>
+        <SimpleGrid
+          templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 1fr' }}
+          spacing={8}>
+          <Stack spacing={6}>
+            <Box pl={'100px'}>
+              <Logo color={useColorModeValue('gray.700', 'white')} />
+              
+            </Box>
+            <Text fontSize={'sm'}>
+            <Text fontWeight={700}>Brick By Brick Design</Text>
+              © 2023 All rights reserved
+              powered by Chakra UI
+            </Text>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Product</ListHeader>
+            <Link href={'#'}>Overview</Link>
+            <Link href={'#'}>Features</Link>
+            <Link href={'https://github.com/cjbricks'}>Code</Link>
+            <Link href={'/ContactPage'}>Pricing Inquiry</Link>
+            <Link href={'/Images'}>Recent Releases</Link>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Company</ListHeader>
+            <Link href={'/InfoPage'}>About</Link>
+            <Link href={'/Body'}>Home</Link>
+            <Link href={'/ContactPage'}>Contact</Link>
+            <Link href={'https://bricks-ten.vercel.app'} target="_blank">Partners</Link>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Support</ListHeader>
+            <Link href={'#'}>Help Center</Link>
+            <Link href={'#'}>Commission Request</Link>
+            <Link href={'#'}>Print Request</Link>
+            <Link href={'#'}>Legal</Link>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Follow Us</ListHeader>
+            <Link href={'https://twitter.com/elonhuskyyy'}>Twitter</Link>
+            <Link href={'https://github.com/cjbricks'}>Github</Link>
+            <Link href={'https://instagram.com/oreo.blizman'}>Instagram</Link>
+            <Link href={'#'}>LinkedIn</Link>
+          </Stack>
+        </SimpleGrid>
+      </Container>
+    </Box>
+  );
 }
