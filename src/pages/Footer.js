@@ -14,7 +14,7 @@ import {
 
 const Logo = (props, any) => {
   return (
-    <Image src="/Images/birk-chain.png" alt="brick-by-brick-birkenstock-logo" width={50} height={50} viewBox="0 0 120 28" />
+    <Image src="/Images/birk-chain.png" alt="brick-by-brick-birkenstock-logo" width={40} height={40} viewBox="0 0 120 28" />
   );
 };
 
@@ -30,15 +30,15 @@ export default function Footer() {
   return (
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}
+      color={useColorModeValue('gray.700', 'gray.700')}
       mt={5} >
       <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid
           templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 1fr' }}
           spacing={8}>
           <Stack spacing={6}>
-            <Box pl={'100px'}>
-              <Logo color={useColorModeValue('gray.700', 'white')} />
+            <Box pl={'20px'}>
+              <Logo color={useColorModeValue('gray.700', 'gray.700')} />
               
             </Box>
             <Text fontSize={'sm'}>

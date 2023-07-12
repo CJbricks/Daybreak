@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
-import headerImage from '../../public/images/headerbanner2.png';
+import headerImage from '../../public/images/birk-chain.png';
 import Link from 'next/link';
 import homeIcon from '../../public/home.png';
 import { Text } from '@chakra-ui/react'
@@ -28,8 +28,8 @@ export default function Header() {
             <div className={styles.scale}>
                     <Image 
                     src={headerImage}
-                    width={700}
-                    height={500}
+                    width={600}
+                    height={400}
                     alt="header-image"
                     className={styles.splash} />
             </div>
