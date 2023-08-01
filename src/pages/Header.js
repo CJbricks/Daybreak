@@ -14,6 +14,7 @@ export default function Header() {
 
     return (
         <div className={styles.headbox}>
+            {/*
                 <div className={styles.subheader}>
                     <Link href="/InfoPage" className={styles.headunit}>
                         <p>WHAT?</p>
@@ -25,6 +26,7 @@ export default function Header() {
                         <p>CONTACT</p>
                     </Link>
                 </div>
+    */}
             <div className={styles.scale}>
                     <Image 
                     src={headerImage}
@@ -34,7 +36,7 @@ export default function Header() {
                     className={styles.splash} />
             </div>
             <div className={styles.header}>
-                <Text color="red.600">DEAL BREAKr</Text>
+                <Text color="gray.300">DEAL BREAKr</Text>
             </div>
         </div>
     )
