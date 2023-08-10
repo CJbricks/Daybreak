@@ -6,11 +6,12 @@ import BrickLogo from './BrickLogo.js';
 import brickLogo from '../../public/clogLOGO.png';
 import Issue01 from './Issue01.js';
 import { Text } from '@chakra-ui/react';
+import Navbar from './Navbar.js'
 
 export default function Test() {
     return (
         <>
-        
+        <Navbar />
         <Header />
             <Images />
             <Text
