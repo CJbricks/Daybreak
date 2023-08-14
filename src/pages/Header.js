@@ -13,16 +13,16 @@ export default function Header() {
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-            bg={'orange.200'}
-            p={10}
+            bg={'brand.900'}
+            p={8}
             >
 
             <Image src='/images/birk-chain.png' alt="BBB-logo-banner-image"
             height={'500px'}
             width={'500px'}
              />
-            <Heading color="gray.900" fontWeight={700}>DAYBREAK</Heading>
-            <Text color={'gray.500'}>Books and Zines</Text>
+            <Heading color="brand.700" fontWeight={700} mt={8} fontSize={['lg', '2xl', '6xl']}>DAYBREAK</Heading>
+            <Text color={'gray.600'} mt={1} fontSize={['md', 'lg', '3xl']}>Books and Zines</Text>
         </Box>
     </>
   )
