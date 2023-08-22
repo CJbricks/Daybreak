@@ -15,6 +15,7 @@ import { IoHammerOutline, IoImageOutline, IoBookSharp } from 'react-icons/io5'
 import nextPage from '../../public/zine/nextpage.jpg';
 import leftyPage from '../../public/zine/lefty.jpg';
 import thirdPage from '../../public/zine/bluepagetwo.jpg';
+import styles from '@/styles/Home.module.css'
 
 const Feature = ({ text, icon, iconBg }, FeatureProps) => {
   return (
@@ -79,10 +80,11 @@ export default function Issue01() {
           </Stack>
         </Stack>
         <Flex w={['300px', '600px']} h={['400px', '800px']}>
-            <div onClick={()=>{ count === imageArray.length - 1 ? setCount(0) : setCount(count + 1)}}>
+            <div onClick={ () => { count === imageArray.length - 1 ? setCount(0) : setCount(count + 1)}}>
                 <Image
                     alt={'featured zine image'}
                     src={imageArray[count]}
+                    className={styles.fade}
                 />
             </div>
         </Flex>

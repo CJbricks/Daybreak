@@ -154,6 +154,41 @@ padding-top: 3%;
   cursor: pointer;
 }
 
+.fade {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+
+.fadeslow{
+  animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;
+-moz-animation: fadeIn ease 7s;
+-o-animation: fadeIn ease 7s;
+-ms-animation: fadeIn ease 7s;
+}
+
+.fadeslower {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+-moz-animation: fadeIn ease 9s;
+-o-animation: fadeIn ease 9s;
+-ms-animation: fadeIn ease 9s;
+}
+
+@keyframes fadeIn{
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+
 @media only screen and (max-width: 600px) {
   @media only screen and (max-width: 480px){
 

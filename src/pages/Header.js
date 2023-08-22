@@ -1,5 +1,6 @@
 import React from 'react'
-import { Image, Text, Box, Heading } from '@chakra-ui/react'
+import { Image, Text, Box, Heading, StylesProvider } from '@chakra-ui/react'
+import styles from '@/styles/Home.module.css'
 
 export default function Header() {
   return (
@@ -17,12 +18,14 @@ export default function Header() {
             p={8}
             >
 
-            <Image src='/images/birk-chain.png' alt="BBB-logo-banner-image"
+            <Image src='/images/birk-chain.png'
+            alt={'logo-banner'}
             height={'500px'}
             width={'500px'}
+            className={styles.fade}
              />
-            <Heading color="brand.700" fontWeight={700} mt={8} fontSize={['lg', '2xl', '6xl']}>DAYBREAK</Heading>
-            <Text color={'gray.600'} p={2} fontSize={['md', 'lg', '3xl']} >Books and Print</Text>
+            <Heading color="brand.700" fontWeight={700} mt={8} fontSize={['lg', '2xl', '6xl']} className={styles.fadeslow}>DAYBREAK</Heading>
+            <Text color={'gray.600'} p={2} fontSize={['md', 'lg', '3xl']} className={styles.fadeslower} >Books and Print</Text>
         </Box>
     </>
   )
