@@ -11,7 +11,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
 import Image from 'next/image'
-import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5'
+import { IoHammerOutline, IoImageOutline, IoBookSharp } from 'react-icons/io5'
 import nextPage from '../../public/zine/nextpage.jpg';
 import leftyPage from '../../public/zine/lefty.jpg';
 import thirdPage from '../../public/zine/bluepagetwo.jpg';
@@ -50,7 +50,7 @@ export default function Issue01() {
             "No. 001"
           </Text>
           <Heading>Daybreak Issue No.001</Heading>
-          <Text color={'gray.500'} fontSize={'lg'}>
+          <Text color={'gray.500'} fontSize={'lg'} textAlign={'left'}>
            Introducing Daybreak Issue No. 001, "Lefty" by Cody Christian. 
            This book contains over 50pgs of original illustration and writings centered around the climate of technocracy and 
            the emerging singularity. All drawings are done on TracPad and then expanded on physically with simple tooling such as sharpie and 
@@ -62,18 +62,18 @@ export default function Issue01() {
               <StackDivider borderColor={useColorModeValue('gray.100', 'gray.700')} />
             }>
             <Feature
-              icon={<Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('yellow.100', 'yellow.900')}
+              icon={<Icon as={IoImageOutline} color={'brand.800'} w={5} h={5} />}
+              iconBg={useColorModeValue('brand.400')}
               text={'25pgs of TracPad Illustration'}
             />
             <Feature
-              icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('green.100', 'green.900')}
+              icon={<Icon as={IoHammerOutline} color={'brand.800'} w={5} h={5} />}
+              iconBg={useColorModeValue('brand.400')}
               text={'Featuring Original Drawings from Cody Christian'}
             />
             <Feature
-              icon={<Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('purple.100', 'purple.900')}
+              icon={<Icon as={IoBookSharp} color={'brand.800'} w={5} h={5} />}
+              iconBg={useColorModeValue('brand.400')}
               text={'Bound Book Paper Back Soft Cover'}
             />
           </Stack>

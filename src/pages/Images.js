@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Stack, Flex } from '@chakra-ui/react'
 import styles from '@/styles/Image.module.css';
 import kegImage from '../../public/images/keg.jpg';
 import shedBoy from '../../public/images/shed.jpg';
@@ -19,19 +20,22 @@ export default function Images() {
 
   return (
     <>
-          <div className={styles.imagecenter}>
-            { imageDeposit.map((image) => (
-                <Image 
-                  key="image"
-                  src={image}
-                  width={280}
-                  heigth={400}
-                  alt="archived-image" 
-                  className={styles.imagebox} />
-            
-                 ))
-            }
-          </div>
+          <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+            <Flex flex={1} wrap={'wrap'} align={'center'} justify={'center'} width={'full'} height={'full'} m={2}>
+              { imageDeposit.map((image) => (
+                  <Image 
+                    key="image"
+                    src={image}
+                    width={280}
+                    heigth={400}
+                    alt="archived-image" 
+                    className={styles.imagebox} />
+              
+                  ))
+              }
+            </Flex>
+          </Stack>
+         
     </>
   )
 }
