@@ -22,7 +22,7 @@ export default function Header() {
             width={'500px'}
              />
             <Heading color="brand.700" fontWeight={700} mt={8} fontSize={['lg', '2xl', '6xl']}>DAYBREAK</Heading>
-            <Text color={'gray.600'} mt={1} fontSize={['md', 'lg', '3xl']}>Books and Zines</Text>
+            <Text color={'gray.600'} p={2} fontSize={['md', 'lg', '3xl']} >Books and Print</Text>
         </Box>
     </>
   )

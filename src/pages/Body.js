@@ -5,8 +5,9 @@ import Header from './Header.js';
 import BrickLogo from './BrickLogo.js';
 import brickLogo from '../../public/clogLOGO.png';
 import Issue01 from './Issue01.js';
-import { Text } from '@chakra-ui/react';
+import { Heading } from '@chakra-ui/react';
 import Navbar from './Navbar.js'
+import { BiHeading } from 'react-icons/bi';
 
 export default function Test() {
     return (
@@ -14,15 +15,15 @@ export default function Test() {
         <Navbar />
         <Header />
             <Images />
-            <Text
+            <Heading
             p={2}
-            fontFamily="'Climate Crisis', Arial, Helvetica, sans-serif;"
             textAlign="center"
-            color="teal.400"
+            color="brand.700"
             fontWeight={600} 
             fontSize={["18px", "36px", "72px"]}
-            bg="teal.50"
-            m={4} > " LEFTY "</Text>
+            bg="brand.900"
+            borderRadius={'5px'}
+            m={4} > " LEFTY "</Heading>
             <Issue01 />
         <Footer />
         </>

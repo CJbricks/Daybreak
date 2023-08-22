@@ -9,7 +9,6 @@ import {
     StackDivider,
     Icon,
     useColorModeValue,
-    
   } from '@chakra-ui/react'
 import Image from 'next/image'
 import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from 'react-icons/io5'
@@ -36,8 +35,8 @@ export default function Issue01() {
   
   return (
     <>
-    <Container maxW={'5xl'} py={12} align={'center'} justify={'center'}>
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+    <Container maxW={'8xl'} py={4} align={'center'} justify={'center'} >
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} >
         <Stack spacing={4}>
           <Text
             textTransform={'uppercase'}

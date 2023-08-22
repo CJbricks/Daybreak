@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fontsource/climate-crisis": "^5.0.9",
     "@fontsource/quicksand": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "framer-motion": "^10.12.4",
