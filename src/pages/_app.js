@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import { extendTheme } from '@chakra-ui/react';
-import '@fontsource/Quicksand/400.css'
+import '@fontsource/quicksand/400.css'
 import '@fontsource/climate-crisis/400.css'
 
 
