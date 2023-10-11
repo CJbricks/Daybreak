@@ -3,7 +3,6 @@ import Header from './Header.js';
 import styles from '@/styles/Sub.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import Border from '../../src/pages/Posts/Border.js';
 import Footer from './Footer.js';
 import { Text, Box, Center, Vstack, Container } from '@chakra-ui/react';
 
