@@ -2,8 +2,6 @@ import React from 'react';
 import Images from './Images.js';
 import Footer from '/src/pages/Footer.js';
 import Header from './Header.js';
-import BrickLogo from './BrickLogo.js';
-import brickLogo from '../../public/clogLOGO.png';
 import Issue01 from './Issue01.js';
 import { Heading } from '@chakra-ui/react';
 import Navbar from './Navbar.js'
