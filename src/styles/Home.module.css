@@ -162,6 +162,10 @@ padding-top: 3%;
 -ms-animation: fadeIn ease 5s;
 }
 
+.fade:hover {
+  cursor: pointer;
+}
+
 .fadeslow{
   animation: fadeIn ease 7s;
   -webkit-animation: fadeIn ease 7s;
