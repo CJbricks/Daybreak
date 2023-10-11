@@ -15,16 +15,18 @@ export default function Test() {
         <Navbar />
         <Header />
             <Images />
-            <Heading
-            p={2}
-            textAlign="center"
-            color="brand.700"
-            fontWeight={600} 
-            fontSize={["18px", "36px", "72px"]}
-            bg="brand.900"
-            borderRadius={'5px'}
-            m={4} > " LEFTY "</Heading>
-            <Issue01 />
+                <Heading
+                    p={2}
+                    textAlign="center"
+                    color="brand.700"
+                    fontWeight={600} 
+                    fontSize={["18px", "36px", "72px"]}
+                    bg="brand.900"
+                    borderRadius={'5px'}
+                    m={4} > 
+                        " LEFTY "
+                </Heading>
+                    <Issue01 />
         <Footer />
         </>
     )
