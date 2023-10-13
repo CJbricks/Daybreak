@@ -15,7 +15,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content= "Daybreak | Independant Art Publication"/>
         <meta property="og:description" content="Independant Art Magazine, Publication, and Printing." />
-        <meta property="og:image" content="https://live.staticflickr.com/65535/53251589491_11d3408f4d_m.jpg" />
+        <meta property="og:image" content="/favicon.png" />
         <link rel="icon" href="/favicon.png" />
         
       </Head>
