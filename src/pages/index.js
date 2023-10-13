@@ -4,6 +4,8 @@ import Header from '/src/pages/Header.js';
 import Body from '/src/pages/Body.js';
 
 export default function Home() {
+  
+
   return (
     <>
       <Head>
@@ -17,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
         
       </Head>
+      
       <Body />
     </>
   )

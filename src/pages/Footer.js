@@ -14,7 +14,7 @@ import {
 
 const Logo = (props, any) => {
   return (
-    <Image src="/Images/birk-chain.png" alt="brick-by-brick-birkenstock-logo" width={40} height={40} viewBox="0 0 120 28" />
+    <Image src="/images/logo.png" alt="daybreak-art-magazine-logo" width={40} height={40} viewBox="0 0 120 28" />
   );
 };
 
@@ -41,9 +41,10 @@ export default function Footer() {
               <Logo color={useColorModeValue('gray.700', 'gray.700')} />
               
             </Box>
+            <Text fontWeight={700} fontSize={'sm'}>Brick By Brick Design </Text>
             <Text fontSize={'sm'}>
-            <Text fontWeight={700}>Brick By Brick Design</Text>
               © 2023 All rights reserved
+              <br />
               powered by Chakra UI
             </Text>
           </Stack>
