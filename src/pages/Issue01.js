@@ -36,7 +36,7 @@ export default function Issue01() {
   
   return (
     <>
-    <Container maxW={'8xl'} py={4} align={'center'} justify={'center'} >
+    <Container maxW={'10xl'} py={4} align={'center'} justify={'center'} >
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} >
         <Stack spacing={4}>
           <Text
@@ -60,7 +60,7 @@ export default function Issue01() {
           <Stack
             spacing={4}
             divider={
-              <StackDivider borderColor={useColorModeValue('gray.100', 'gray.700')} />
+              <StackDivider borderColor={useColorModeValue('gray.900', 'gray.900')} />
             }>
             <Feature
               icon={<Icon as={IoImageOutline} color={'brand.800'} w={5} h={5} />}
@@ -79,7 +79,7 @@ export default function Issue01() {
             />
           </Stack>
         </Stack>
-        <Flex w={['300px', '600px']} h={['400px', '800px']}>
+        <Flex w={['300px', 'full']} h={['400px', 'full']}>
             <div onClick={ () => { count === imageArray.length - 1 ? setCount(0) : setCount(count + 1)}}>
                 <Image
                     alt={'featured zine image'}
